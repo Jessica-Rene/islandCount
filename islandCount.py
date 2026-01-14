@@ -11,7 +11,7 @@ def count_islands(oceans):
     cols = len(oceans[0])
     visited = set()
 
-    # 8 directions (including diagonals)
+    # 8 directions 
     directions = [
         (-1, 0), (1, 0), (0, -1), (0, 1),
         (-1, -1), (-1, 1), (1, -1), (1, 1)
